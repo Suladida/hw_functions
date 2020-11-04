@@ -28,10 +28,8 @@ def length_of_string(test_string):
 def join_string(string_1, string_2):
     return (string_1 + string_2)
 
-
 def add_string_as_number(num1, num2):
     return int(num1) + int(num2)
-   
 
 def number_to_full_month_name(month):
     import calendar
@@ -44,14 +42,17 @@ def number_to_short_month_name(month):
     return(calendar.month_abbr[month])
 
 
-
-
-
-
-
-
-
-
+# Further - 
 
 def cube_side(num1):
     return int(num1 * 3)
+
+
+
+
+def test_string(backwards_text):
+    return (backwards_text[::-1])
+
+
+
+# (Fahrenheit – 32) x 5/9
