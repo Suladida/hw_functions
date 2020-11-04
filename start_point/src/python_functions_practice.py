@@ -39,3 +39,9 @@ def number_to_full_month_name(month):
     import calendar
     list(calendar.month_name)   
     return(calendar.month_name[month])
+
+def number_to_short_month_name(month):
+    import calendar
+    list(calendar.month_abbr)
+    return(calendar.month_abbr[month])
+
