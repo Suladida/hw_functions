@@ -43,3 +43,15 @@ def number_to_short_month_name(month):
     list(calendar.month_abbr)
     return(calendar.month_abbr[month])
 
+
+
+
+
+
+
+
+
+
+
+def cube_side(num1):
+    return int(num1 * 3)
