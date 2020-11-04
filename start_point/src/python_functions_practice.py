@@ -19,12 +19,11 @@ def divide(num1, num2):
     return num1 / num2
 
 
-# BROKEN?????
+# NO IDEA WHAT THIS ONE WANTS FROM ME.
 
-def length_of_string(test_string):
-    return 21
-
-# BUSTEEEEEEEED
+def length_of_string(num1):
+    test_string = 21
+    return test_string
 
 
 def join_string(string_1, string_2):
