@@ -34,3 +34,8 @@ def join_string(string_1, string_2):
 def add_string_as_number(num1, num2):
     return int(num1) + int(num2)
    
+
+def number_to_full_month_name(month):
+    import calendar
+    list(calendar.month_name)   
+    return(calendar.month_name[month])
