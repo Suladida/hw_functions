@@ -82,12 +82,33 @@ class TestPythonFunctionPractice(unittest.TestCase):
 
     #print(string_backwards)
 
-  #Given a value in farenheit, convert this into celsius.
-  @unittest.skip("delete this line to run the test")
-  def test_fahrenheit_to_celsius(self):
-    #add test code here
-    pass
 
+
+
+
+  #Given a value in farenheit, convert this into celsius.
+  def test_fahrenheit_to_celsius(self):
+      celsius = fahrenheit(572)
+      self.assertEqual(300, celsius)
+    #add test code here
+    
+    #   print("Celsius is " + str(celsius))
+
+
+
+
+
+
+
+
+
+#   #Given a value in farenheit, convert this into celsius.
+#   def test_fahrenheit_to_celsius(self):
+#       farenheit = celsius(100)
+#       self.assertEqual(212, farenheit)
+#     #add test code here
+    
+#       print("farenheit is " + str(farenheit))
 
 if __name__ == '__main__':
     unittest.main()

@@ -55,4 +55,13 @@ def test_string(backwards_text):
 
 
 
-# (Fahrenheit – 32) x 5/9
+
+def fahrenheit(num1):
+    return int(((num1 - 32) * 5) / 9)
+#(((num1 - 32) * 5) / 9)
+
+
+
+# def divide(num1, num2):
+#     return num1 / num2
+# # (Fahrenheit – 32) x 5/9
